@@ -1,0 +1,10 @@
+.posts{
+    flex:9;
+}
+
+.postDescr{
+    font-family: 'Lexend', sans-serif;
+    color:#444;
+    line-height: 20px;
+    overflow: hidden;
+}
