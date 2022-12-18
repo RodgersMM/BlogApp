@@ -1,0 +1,21 @@
+.header{
+    margin-top: 60px;
+}
+
+.headerTitles{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Lexend', sans-serif;
+    color: #000;
+}
+.headerTitleSm{
+    position:absolute;
+    top:18%;
+    font-style: 20px;
+}
+
+.headerTitleLg{
+    position:absolute;
+    font-size: 100px;
+}
