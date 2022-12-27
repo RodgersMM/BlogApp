@@ -1,5 +1,9 @@
 .posts{
-    flex:9;
+    flex: 9;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    
 }
 
 .postDescr{
@@ -8,3 +12,4 @@
     line-height: 20px;
     overflow: hidden;
 }
+

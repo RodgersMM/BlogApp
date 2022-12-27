@@ -5,7 +5,7 @@ function Sidebar() {
     <div className='sidebar'>
        <div className="sidebarItem">
         <span className="sidebarTitle">ABOUT ME</span>
-        <p>I'm a Full Stack Developer & Digital Marketer</p>
+        <p>MERN Stack & SEO </p>
        </div>
        <div className="sidebarItem">
          <span className="sidebarTitle">CATEGORIES</span>

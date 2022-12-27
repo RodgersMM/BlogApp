@@ -1,15 +1,14 @@
 import React from 'react'
 import './post.css'
+import Picture from '../../images/beach.jpg'
+
 
 
 function Post() {
   return (
     <div className='post'>
-           <img className='postImg' 
-        src='https://www.pexels.com/photo/woman-jumping-wearing-green-backpack-214574/'
-        alt="Maldive Beach"
-        />
-   
+  
+           
         <div className="postInfo">
           <div className="postCats">
             <span className="postCat">Core</span>
@@ -17,11 +16,12 @@ function Post() {
         </div>
           <span className="postTitle">Lorem ipsum dolor, sit amet adipisicing elit</span>
          <hr/>
+         <img className='postImg' src= {Picture}/>
          <span className="postDate">1 hour ago</span>
-         <p className='postDescr'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis nihil placeat doloribus dolorem deleniti minus voluptatibus labore nam tenetur velit aliquam vel,
+         <p className='postDes'>Lorem,<code>oppo</code> ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis nihil placeat doloribus dolorem deleniti minus voluptatibus labore nam tenetur velit aliquam vel,
              rerum voluptatem similique incidunt atque, minima numquam?
              
-             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis nihil placeat doloribus dolorem deleniti minus voluptatibus labore nam tenetur velit aliquam vel,
+             Lorem, <code>oppo</code> ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis nihil placeat doloribus dolorem deleniti minus voluptatibus labore nam tenetur velit aliquam vel,
              rerum voluptatem similique incidunt atque, minima numquam?
              
              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis nihil placeat doloribus dolorem deleniti minus voluptatibus labore nam tenetur velit aliquam vel,
@@ -43,12 +43,10 @@ function Post() {
              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi perspiciatis nihil placeat doloribus dolorem deleniti minus voluptatibus labore nam tenetur velit aliquam vel,
              rerum voluptatem similique incidunt atque, minima numquam?
              </p>
-
-
     </div>
  </div>
     
   );
 }
 
-export default Post
+export default Post;
